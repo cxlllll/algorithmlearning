@@ -6,7 +6,7 @@ package com.tfl;
  * 核心就是 被除数是除数的多少倍
  * 需要注意的点：1.溢出问题  2.优化  2.1将两个数转成同正或者同负  2.2使用除数累加 后相减的方法
  */
-public class questionOne {
+public class QuestionOne {
     public static void main(String[] args) {
             int a= 2003;
             int b=23;
