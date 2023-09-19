@@ -51,4 +51,6 @@ public class QuestionThree {
         return  arr;
     }
 
+    // 还有第三种解法
+
 }
