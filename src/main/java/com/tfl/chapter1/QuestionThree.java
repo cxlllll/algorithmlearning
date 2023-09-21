@@ -1,4 +1,4 @@
-package com.tfl;
+package com.tfl.chapter1;
 
 import java.util.Arrays;
 

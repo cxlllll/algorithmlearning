@@ -1,6 +1,4 @@
-package com.tfl;
-
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+package com.tfl.chapter1;
 
 /**
  * 问题： 一个数组 数组里所有的整数 只有一个数字出现一次 其他数字出现3次 请找出出现一次的那个数字

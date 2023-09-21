@@ -1,4 +1,4 @@
-package com.tfl;
+package com.tfl.chapter1;
 
 /**
  * 第二个问题

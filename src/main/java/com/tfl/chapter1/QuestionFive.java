@@ -1,4 +1,4 @@
-package com.tfl;
+package com.tfl.chapter1;
 
 /**
  * 问题5：一个英文单词数组  {'abc','foo','cdc','kppkll'} 求出没有共同字母的两个单词的长度的乘积
