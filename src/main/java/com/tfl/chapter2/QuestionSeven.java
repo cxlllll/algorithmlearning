@@ -9,10 +9,10 @@ import java.util.List;
  * 题目重点：1.数组不是排好序的 2.不能重复所以扫描过的数字需要跳过
  *  可以把三数之后转成两数之和
  */
-public class QuestionTwo {
+public class QuestionSeven {
     public static void main(String[] args) {
         int[] nums ={12,3,37,-3,0,-4,-37};
-        QuestionTwo two = new QuestionTwo();
+        QuestionSeven two = new QuestionSeven();
         List<List<Integer>> lists = two.threeSum(nums);
         System.out.println(lists);
     }
