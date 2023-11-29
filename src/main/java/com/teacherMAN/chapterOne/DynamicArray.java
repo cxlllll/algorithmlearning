@@ -48,4 +48,13 @@ public class DynamicArray implements Iterable<Integer>{
         }
     }
 
+    private  int remove(int index){
+        int removeValue  =array[index];
+        if(0<= index && index <size){
+            System.arraycopy(array,index+1,array,index,size - index -1);
+        }
+        size --;
+        return removeValue;
+    }
+
 }
