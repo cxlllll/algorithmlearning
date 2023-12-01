@@ -105,4 +105,28 @@ public class SinglyLinkedList<U> implements Iterable{
         }
         return  indexNode;
     }
+
+    public Node removeFirst(){
+        Node indexNode = head;
+        if(head == null){
+            throw  new IllegalArgumentException("链表长度为0");
+        }
+        head = head.next;
+        return indexNode;
+    }
+
+    public Node removeIndex(int index){
+        // 先寻找前节点
+        Node node  = findIndexNode(index-1);
+        if(node == null){
+            throw new IllegalArgumentException("参数不合法");
+        }
+        // 删除位置的节点
+        Node removeNode = node.next;
+        if(removeNode == null){
+            throw new IllegalArgumentException("参数不合法");
+        }
+        node.next = removeNode.next;
+        return removeNode;
+    }
 }
