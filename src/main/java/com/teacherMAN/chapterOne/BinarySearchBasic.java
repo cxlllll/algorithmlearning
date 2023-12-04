@@ -112,4 +112,21 @@ public class BinarySearchBasic {
         }
         return -(left+1);
     }
+
+    /**
+     * 二分查找的递归实现
+     */
+    public static int recursiveFindUp(int a,int b,int target,int arr[]){
+        if(a >b){
+            return -1;// 递归到底了 还么有找到 返回 -1
+        }
+        int mid =  (a+b)>>>1;
+        if(arr[mid] < target){
+            return recursiveFindUp(mid,b,target,arr);
+        }else if(target < arr[mid]){
+             return recursiveFindUp(a,mid,target,arr);
+        }else {
+            return  arr[mid];
+        }
+    }
 }
