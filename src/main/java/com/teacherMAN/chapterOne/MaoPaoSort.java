@@ -36,7 +36,7 @@ public class MaoPaoSort {
                 m = a;
             }
         }
-        sort(arr,a,m);
+        sort2(arr,a,m);
     }
 
     public static void main(String[] args) {
